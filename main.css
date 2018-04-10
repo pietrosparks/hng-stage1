@@ -1,0 +1,123 @@
+/* Minimal CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Resets*/
+
+.container {
+  display: flex;
+  font-family: 'Quattrocento Sans';
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.aside-bar {
+  align-items: flex-start;
+  background-color: #231E36;
+}
+
+.side-content {
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  padding-left: 2.5vh;
+  padding-right: 2.5vh;
+}
+
+.contents {
+  align-self: center;
+  flex-grow: 2;
+  padding: 5vh;
+}
+
+.avatar-holder {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.dev-info {
+  text-align: center;
+  margin-top: 5vh;
+  color: white
+}
+
+.dev-info h1 {
+  padding: 15px;
+}
+
+.dev-info h2 {
+  padding: 15px;
+  color: #65C9FF;
+}
+
+.dev-links {
+  margin-top: 5vh;
+  text-align: center;
+}
+
+.dev-links .circle {
+  background-color: #F0F0F0;
+  width: 80px;
+  height: 80px;
+  ;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+}
+
+.content-intro {
+  margin-top: -120px;
+}
+
+.content-intro h1 {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.content-intro p {
+  font-size: 24px;
+  color: #65C9FF;
+  margin-bottom: 10px;
+
+}
+
+.content-time p {
+  font-size: 96px;
+  font-family: 'Saira Semi Condensed';
+  color: #B9BBBD;
+}
